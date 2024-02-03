@@ -1,13 +1,90 @@
 body{
-    background-color: rgb(235, 240, 243);
+    background-color: #1c1c1c;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 h1{
     text-align:  center;
-    color: aqua;
+    color: white;
+    text-shadow: 0cm;
+    font-family: 'Lato', sans-serif;
 }
 
 p{
     text-align: center;
+}
+
+.info{
+    display:flex;
+    justify-content: center;
+
+    
+}
+
+
+.info p{
+    color:white;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.nav{
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav .desc{
+   
+   position: relative;
+   left: -1100px;
+}
+
+.nav .desc:hover{
+    color: rgb(255, 242, 0);
+    transition: all 0.5s;
+    transform: scale(1.20);;
+   
+ }
+.nav .navegacion{
+   
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+   
+
+}
+.nav .navegacion ul{
+    display: flex;
+    
+}
+.nav ul li {
+   justify-content: center;
+    list-style: none; 
+}
+.desc{
+    font-family: 'Lato', sans-serif;
+    
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 15px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.nav ul li a:hover {
+    background-color:#fadf41;
+    
 }
