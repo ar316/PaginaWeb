@@ -3,6 +3,7 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -10,7 +11,7 @@ h1{
     text-align:  center;
     color: white;
     text-shadow: 0cm;
-    font-family: 'Lato', sans-serif;
+    
 }
 
 p{
@@ -44,7 +45,7 @@ p{
 .nav .desc{
    
    position: relative;
-   left: -1100px;
+ 
 }
 
 .nav .desc:hover{
@@ -87,4 +88,48 @@ p{
 .nav ul li a:hover {
     background-color:#fadf41;
     
+}
+
+
+.productos {
+
+    
+
+}
+
+.productos h2{
+   
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.productos .container{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.productos .container .card{
+    color: #ffffff;
+    text-align: center;
+    border-color: aqua;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(242, 255, 0);
+    border-radius: 15px;
+    margin: auto 30px;
+}
+
+.productos .container .card:hover{
+    color: rgb(191, 186, 92);
+    transition: all 0.5s;
+    transform: scale(1.06);;
+}
+
+.card img{
+    width: 300px;
+    height: 188px;
 }
