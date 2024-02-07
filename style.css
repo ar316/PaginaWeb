@@ -134,3 +134,20 @@ p{
     width: 300px;
     height: 188px;
 }
+
+footer{
+    background-color: red !important;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 400px;
+
+    
+}
+footer p{
+    display: block;
+
+    
+}
